@@ -14,6 +14,8 @@ https://docs.sonarqube.org/latest/
 
 ![Screenshot](/prtsc/architecture-scanning-2.png)
 
+![Screenshot](/prtsc/architecture-scanning-3.png)
+
 https://docs.sonarqube.org/latest/architecture/architecture-integration/
 
 
@@ -25,4 +27,27 @@ jmendoza@jmendoza-ThinkPad-T420:~/Documentos/DevTools$ docker run -d --name sona
 
 ![Screenshot](/prtsc/Sonarqube-2.png)
 
+http://172.17.0.2:9000/about
+
 ![Screenshot](/prtsc/Sonarqube-3.png)
+
+### Sonarqube with Maven
+
+Configure file settings.xml in your home, for example: /home/jmendoza/.m2
+
+![Screenshot](/prtsc/Sonarqube-4.png)
+
+Compile project with Maven and Analyzing with Sonarqube
+
+![Screenshot](/prtsc/Sonarqube-4.1.png)
+
+![Screenshot](/prtsc/Sonarqube-4.2.png)
+
+![Screenshot](/prtsc/Sonarqube-4.3.png)
+
+### Update console Sonarqube 
+
+![Screenshot](/prtsc/Sonarqube-5.png)
+
+![Screenshot](/prtsc/Sonarqube-5.1.png)
+
