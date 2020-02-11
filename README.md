@@ -39,6 +39,8 @@ Configure file settings.xml in your home, for example: /home/jmendoza/.m2
 
 Compile project with Maven and Analyzing with Sonarqube
 
+jmendoza@jmendoza-ThinkPad-T420:~/IdeaProjects/SonarQube/TestSonarQube$ mvn clean sonar:sonar install
+
 ![Screenshot](/prtsc/Sonarqube-4.1.png)
 
 ![Screenshot](/prtsc/Sonarqube-4.2.png)
