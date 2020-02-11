@@ -83,4 +83,18 @@ jmendoza@jmendoza-ThinkPad-T420:~/IdeaProjects/SonarQube/TestSonarQube$ mvn clea
 
 ### Issues resolved
 
+![Screenshot](/prtsc/Sonarqube-7.png)
+
+IntelliJ: sonar-maven-plugin
+
+![Screenshot](/prtsc/Sonarqube-7.1.png)
+
+Update console Sonarqube 
+
+![Screenshot](/prtsc/Sonarqube-7.2.png)
+
+
+
+
+
 
