@@ -51,3 +51,34 @@ Compile project with Maven and Analyzing with Sonarqube
 
 ![Screenshot](/prtsc/Sonarqube-5.1.png)
 
+
+## Configure Sonarqube in IntelliJ
+
+IntelliJ Before Sonarqube
+
+![Screenshot](/prtsc/Sonarqube-6.png)
+
+
+Open IntelliJ go to menu File --> Settings --> Plugins --> Marketplace
+
+Search with the word "sonar". Install SonarLint and RestartIDE.
+
+![Screenshot](/prtsc/Sonarqube-6.1.png)
+
+IntelliJ After Sonarqube
+
+Right click on the directory src the project and select SonarLint -> Analyze with SonarLint
+
+![Screenshot](/prtsc/Sonarqube-6.2.png)
+
+jmendoza@jmendoza-ThinkPad-T420:~/IdeaProjects/SonarQube/TestSonarQube$ mvn clean sonar:sonar install
+
+![Screenshot](/prtsc/Sonarqube-6.3.png)
+
+![Screenshot](/prtsc/Sonarqube-6.4.png)
+
+![Screenshot](/prtsc/Sonarqube-6.5.png)
+
+### Issues resolved
+
+
